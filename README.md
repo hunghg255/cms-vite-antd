@@ -1,4 +1,4 @@
-# XHotel Admin
+# cms-vite-antd
 
 ## Getting Started
 

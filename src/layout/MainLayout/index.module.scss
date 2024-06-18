@@ -1,0 +1,35 @@
+.contentWrap {
+  padding-left: 280px;
+  transition: padding-left 100ms linear;
+
+  &.hidden {
+    padding-left: 0;
+  }
+}
+
+.contentWrapCollapse {
+  padding-left: 88px;
+}
+
+.content {
+  padding: 24px 40px 80px;
+  min-height: 100vh;
+  background-color: #f6f6f6;
+  width: 100%;
+
+  > div {
+    max-width: 2048px;
+    margin: auto;
+  }
+}
+
+.book3dMetaDetail {
+  padding: 24px 0 0;
+  min-height: initial;
+  height: calc(100vh - 57px);
+}
+
+.specialPath {
+  padding: 24px 0;
+  padding-bottom: 80px;
+}

@@ -1,0 +1,77 @@
+.inputPassword {
+  padding: 12px 16px;
+  background: var(--background-default);
+  border-radius: 10px;
+  border: 1.5px solid var(--divider-default);
+  min-height: 50px;
+  outline: none;
+
+  &:global(.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled)) {
+    &:hover {
+      border-color: var(--primary-main);
+    }
+  }
+
+  &:placeholder-shown {
+    border: 1.5px solid var(--divider-default);
+  }
+
+  &:focus,
+  &:active,
+  &:visited,
+  &:focus-visible {
+    box-shadow: none;
+    border: 1.5px solid var(--primary-main);
+    background: var(--background-default);
+  }
+
+  input {
+    color: var(--text-primary);
+    background: var(--background-default);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    outline: none;
+
+    &::-webkit-input-placeholder {
+      /* Edge */
+      color: var(--text-secondary);
+    }
+
+    &:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: var(--text-secondary);
+    }
+
+    &::placeholder {
+      color: var(--text-secondary);
+    }
+  }
+
+  :global {
+    .ant-input-prefix {
+      margin-right: 15px;
+    }
+    .ant-input-suffix {
+      cursor: pointer;
+      margin-left: 15px;
+      min-width: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &:global(.ant-input-affix-wrapper-focused) {
+    background: var(--background-default) !important;
+    input {
+      background: var(--background-default) !important;
+    }
+  }
+
+  &:global(.ant-input-affix-wrapper-disabled) {
+    color: var(--text-disabled) !important;
+    background: var(--background-disabled) !important;
+    border: 1.5px solid transparent !important;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "extends": ["@hunghg255/eslint-config-react"],
+  "rules": {
+    "unicorn/no-null": "warn"
+  }
+}

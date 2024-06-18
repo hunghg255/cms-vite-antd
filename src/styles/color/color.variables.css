@@ -1,0 +1,230 @@
+/* ----------------------------------------------------------- */
+/* WARNING: NOT MODIFY THIS FILE */
+/* ----------------------------------------------------------- */
+/* Step 1: Modify file color-preview.json */
+/* Step 2: npm run gen-color */
+/* ----------------------------------------------------------- */
+
+:root {
+  --primary-8: rgba(62, 95, 44, 0.08);
+  --primary-50: #f3f8ed;
+  --primary-100: #f3f8ed;
+  --primary-200: #cae1b5;
+  --primary-300: #a8cc8a;
+  --primary-400: #6b9c46;
+  --primary-main: #405f2d;
+  --x-home-8: rgba(117, 157, 62, 0.08);
+  --x-home-50: #f5f9ec;
+  --x-home-100: #e7f1d6;
+  --x-home-200: #d2e4b2;
+  --x-home-300: #b3d185;
+  --x-home-400: #97bd5e;
+  --x-home-main: #759d3f;
+  --x-cell-8: rgba(188, 111, 198, 0.08);
+  --x-cell-50: #fbf7fc;
+  --x-cell-100: #f7eef9;
+  --x-cell-200: #eedbf3;
+  --x-cell-300: #e2bee9;
+  --x-cell-400: #bc6fc6;
+  --x-cell-main: #9f4fa8;
+  --neutral-50: #f6f6f6;
+  --neutral-100: #e7e7e7;
+  --neutral-200: #d1d1d1;
+  --neutral-300: #bcbcbc;
+  --neutral-400: #888888;
+  --neutral-500: #6d6d6d;
+  --neutral-600: #5d5d5d;
+  --neutral-700: #4f4f4f;
+  --neutral-800: #454545;
+  --neutral-900: #131313;
+  --text-primary: #131313;
+  --text-secondary: #6d6d6d;
+  --text-disabled: #bcbcbc;
+  --text-inverse: #f6f6f6;
+  --text-icon: #454545;
+  --background-default: #ffffff;
+  --background-gray: #e7e7e7;
+  --background-beige: #f9f6f1;
+  --background-footer: #454545;
+  --background-disabled: #e7e7e7;
+  --divider-default: #e7e7e7;
+  --outlined-default: #bcbcbc;
+  --outlined-disabled: #d1d1d1;
+  --success-lightest: #e7f1d6;
+  --success-light: #97bd5e;
+  --success-main: #759d3e;
+  --success-dark: #3e5f2c;
+  --error-lightest: #fde3e4;
+  --error-light: #ea4951;
+  --error-main: #d9363e;
+  --error-dark: #cd2028;
+  --warning-light: #fff2d8;
+  --warning-main: #ff9e00;
+  --warning-dark: #cb8903;
+}
+
+.primary-8 {
+  color: rgba(62, 95, 44, 0.08);
+}
+.primary-50 {
+  color: #f3f8ed;
+}
+.primary-100 {
+  color: #f3f8ed;
+}
+.primary-200 {
+  color: #cae1b5;
+}
+.primary-300 {
+  color: #a8cc8a;
+}
+.primary-400 {
+  color: #6b9c46;
+}
+.primary-main {
+  color: #405f2d;
+}
+.x-home-8 {
+  color: rgba(117, 157, 62, 0.08);
+}
+.x-home-50 {
+  color: #f5f9ec;
+}
+.x-home-100 {
+  color: #e7f1d6;
+}
+.x-home-200 {
+  color: #d2e4b2;
+}
+.x-home-300 {
+  color: #b3d185;
+}
+.x-home-400 {
+  color: #97bd5e;
+}
+.x-home-main {
+  color: #759d3f;
+}
+.x-cell-8 {
+  color: rgba(188, 111, 198, 0.08);
+}
+.x-cell-50 {
+  color: #fbf7fc;
+}
+.x-cell-100 {
+  color: #f7eef9;
+}
+.x-cell-200 {
+  color: #eedbf3;
+}
+.x-cell-300 {
+  color: #e2bee9;
+}
+.x-cell-400 {
+  color: #bc6fc6;
+}
+.x-cell-main {
+  color: #9f4fa8;
+}
+.neutral-50 {
+  color: #f6f6f6;
+}
+.neutral-100 {
+  color: #e7e7e7;
+}
+.neutral-200 {
+  color: #d1d1d1;
+}
+.neutral-300 {
+  color: #bcbcbc;
+}
+.neutral-400 {
+  color: #888888;
+}
+.neutral-500 {
+  color: #6d6d6d;
+}
+.neutral-600 {
+  color: #5d5d5d;
+}
+.neutral-700 {
+  color: #4f4f4f;
+}
+.neutral-800 {
+  color: #454545;
+}
+.neutral-900 {
+  color: #131313;
+}
+.text-primary {
+  color: #131313;
+}
+.text-secondary {
+  color: #6d6d6d;
+}
+.text-disabled {
+  color: #bcbcbc;
+}
+.text-inverse {
+  color: #f6f6f6;
+}
+.text-icon {
+  color: #454545;
+}
+.background-default {
+  color: #ffffff;
+}
+.background-gray {
+  color: #e7e7e7;
+}
+.background-beige {
+  color: #f9f6f1;
+}
+.background-footer {
+  color: #454545;
+}
+.background-disabled {
+  color: #e7e7e7;
+}
+.divider-default {
+  color: #e7e7e7;
+}
+.outlined-default {
+  color: #bcbcbc;
+}
+.outlined-disabled {
+  color: #d1d1d1;
+}
+.success-lightest {
+  color: #e7f1d6;
+}
+.success-light {
+  color: #97bd5e;
+}
+.success-main {
+  color: #759d3e;
+}
+.success-dark {
+  color: #3e5f2c;
+}
+.error-lightest {
+  color: #fde3e4;
+}
+.error-light {
+  color: #ea4951;
+}
+.error-main {
+  color: #d9363e;
+}
+.error-dark {
+  color: #cd2028;
+}
+.warning-light {
+  color: #fff2d8;
+}
+.warning-main {
+  color: #ff9e00;
+}
+.warning-dark {
+  color: #cb8903;
+}

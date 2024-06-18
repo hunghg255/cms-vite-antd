@@ -1,0 +1,87 @@
+.sidebarWrap {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 280px;
+  height: 100vh;
+  overflow-y: overlay;
+  border-right: 1px solid #f0f0f0;
+  background: #fff;
+  transition: width 100ms linear;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #f0f0f0;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #c4c4c4;
+    border-radius: 4px;
+  }
+}
+
+.sidebarWrapCollapse {
+  width: 88px;
+}
+
+.mainHeaderWrap {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 98;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 64px;
+  padding: 10px 40px;
+  background: #fff;
+}
+
+.sidebarWrap {
+  background-color: var(--primary-main);
+  display: flex;
+  flex-direction: column;
+
+  .logo {
+    padding: 24px 16px;
+    height: 88px;
+    img {
+      width: 100%;
+      max-width: 140px;
+      max-height: 40px;
+    }
+  }
+
+  .item {
+    transition: all 200ms ease-in-out;
+
+    &:hover,
+    &:focus,
+    &:focus-visible {
+      background-color: var(--primary-100);
+
+      i,
+      p {
+        color: var(--primary-main);
+      }
+    }
+  }
+
+  .itemActice {
+    background-color: var(--primary-100);
+
+    i,
+    p {
+      color: var(--primary-main);
+    }
+  }
+
+  .itemCollapse {
+    justify-content: center;
+  }
+}

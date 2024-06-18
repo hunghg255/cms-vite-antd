@@ -1,0 +1,33 @@
+.msg {
+  > div {
+    gap: 12px;
+  }
+  min-width: 420px;
+  padding: 4px;
+  border-radius: 12px;
+  box-shadow: -40px 40px 80px -8px #00000013;
+  background: var(--background-default);
+  border: 1px solid rgba(157, 157, 157, 0.077);
+}
+
+.iconSuccess {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--success-lightest);
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.iconError {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--error-lightest);
+  border-radius: 8px;
+  flex-shrink: 0;
+}

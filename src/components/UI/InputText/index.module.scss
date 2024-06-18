@@ -1,0 +1,121 @@
+.inputText {
+  padding: 12px 16px;
+  background: var(--background-default);
+  box-shadow: inset 0px 2px 2px -1px rgba(74, 74, 104, 0.1);
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--text-primary);
+  border: 1.5px solid var(--divider-default);
+  border-color: var(--divider-default);
+
+  &::-webkit-input-placeholder {
+    /* Edge */
+    color: var(--text-secondary);
+  }
+
+  &:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: var(--text-secondary);
+  }
+
+  &::placeholder {
+    color: var(--text-secondary);
+  }
+
+  &:hover {
+    border: 1.5px solid var(--primary-main);
+    border-color: var(--primary-main);
+  }
+
+  &:focus,
+  &:active,
+  &:visited,
+  &:focus-visible {
+    box-shadow: none;
+    border: 1.5px solid var(--primary-main);
+    border-color: var(--primary-main);
+    background: var(--background-default);
+  }
+
+  &:global(.ant-input-disabled) {
+    color: var(--background-disabled) !important;
+    background: #e9e9e9 !important;
+    border: 1.5px solid transparent !important;
+  }
+}
+
+.hasIcon {
+  padding: 12px 16px;
+  box-shadow: inset 0px 2px 2px -1px rgba(74, 74, 104, 0.1);
+  border-radius: 10px;
+
+  &:global(.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled)) {
+    &:hover {
+    }
+  }
+
+  &:placeholder-shown {
+  }
+
+  &:focus,
+  &:active,
+  &:visited,
+  &:focus-visible {
+    box-shadow: none;
+    background: var(--background-default);
+  }
+
+  input {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    &::-webkit-input-placeholder {
+      /* Edge */
+      color: var(--background-disabled);
+    }
+
+    &:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: var(--background-disabled);
+    }
+
+    &::placeholder {
+      color: var(--background-disabled);
+    }
+  }
+
+  :global {
+    .ant-input-prefix {
+      margin-right: 15px;
+    }
+    .ant-input-suffix {
+      margin-left: 15px;
+    }
+  }
+
+  &:global(.ant-input-affix-wrapper-focused) {
+    background: var(--background-default) !important;
+    input {
+      background: var(--background-default) !important;
+    }
+  }
+
+  &:global(.ant-input-affix-wrapper-disabled) {
+    color: var(--background-disabled) !important;
+    background: #e9e9e9 !important;
+    border: 1.5px solid transparent !important;
+  }
+}
+
+.error {
+  margin: 4px 0 0;
+}
+
+.errorText {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: left;
+}
